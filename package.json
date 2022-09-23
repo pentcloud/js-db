@@ -1,31 +1,5 @@
 {
-  "_from": "pentcloud-js-db@^1.0.2",
-  "_id": "pentcloud-js-db@1.1.0",
-  "_inBundle": false,
-  "_integrity": "sha1-T1RG248MKB9LBenSUErX7uRtYyA=",
-  "_location": "/pentcloud-js-db",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "range",
-    "registry": true,
-    "raw": "pentcloud-js-db@^1.0.2",
-    "name": "pentcloud-js-db",
-    "escapedName": "pentcloud-js-db",
-    "rawSpec": "^1.0.2",
-    "saveSpec": null,
-    "fetchSpec": "^1.0.2"
-  },
-  "_requiredBy": [
-    "/pentcloud-js-request"
-  ],
-  "_resolved": "http://npm.pentcloud.com/pentcloud-js-db/-/pentcloud-js-db-1.1.0.tgz",
-  "_shasum": "4f5446db8f0c281f4b05e9d2504ad7eee46d6320",
-  "_spec": "pentcloud-js-db@^1.0.2",
-  "_where": "/Users/diego/pentcloud/localizame-frontend-socket/node_modules/pentcloud-js-request",
-  "author": {
-    "name": "Erick Ruano"
-  },
-  "bundleDependencies": false,
+  "author": "Erick Ruano",
   "dependencies": {
     "jsoncomp": "^1.6.1",
     "persist-js": "^0.3.1"
@@ -49,15 +23,17 @@
     "test": "test"
   },
   "license": "MIT",
-  "main": "dist/pentcloud-js-db.min.js",
-  "name": "pentcloud-js-db",
+  "main": "dist/js-db.min.js",
+  "name": "@pentcloud/js-db",
   "repository": {
     "type": "git",
-    "url": "https://git.pentcloud.com/pentcloud/pentcloud-js-db"
+    "url": "https://github.com/pentcloud/js-db.git"
   },
   "scripts": {
     "build": "gulp build",
     "test": "mocha test"
   },
-  "version": "1.1.0"
+  "version": "1.1.1",
+  "keywords": [],
+  "homepage": "https://github.com/pentcloud/js-db.git#readme"
 }
